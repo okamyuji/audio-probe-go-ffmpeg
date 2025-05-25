@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+audio-probe-ffmpeg
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace
+go.work
+
+# Build output
+/build/
+/dist/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Test data
+test_data/
+*.mp3
+*.wav
+*.flac
+
+# Output files
+*.txt
+*.json
+analysis_report*
