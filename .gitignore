@@ -4,7 +4,8 @@
 *.dll
 *.so
 *.dylib
-audio-probe-ffmpeg
+#audio-probe-ffmpeg
+/audio-probe-ffmpeg
 
 # Test binary, built with `go test -c`
 *.test
