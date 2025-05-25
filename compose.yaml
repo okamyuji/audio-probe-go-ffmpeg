@@ -1,0 +1,8 @@
+services:
+  audio-probe:
+    build: .
+    image: audio-probe-go-ffmpeg:latest
+    volumes:
+      - ${PWD}data:/data:ro
+    working_dir: /data
+    command: ["/app/audio-probe-ffmpeg", "/data"]
